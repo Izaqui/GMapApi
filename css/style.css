@@ -1,0 +1,62 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       #map {
+        float: right;
+        width: 84%;
+       height: 100%;
+     }
+     
+     /* Optional: Makes the sample page fill the window. */
+     html,
+     body {
+       height: 100%;
+       margin: 0;
+       padding: 0;
+     }
+     .custom-map-control-button {
+       background-color: rgb(94, 90, 90);
+       border: 0;
+       border-radius: 2px;
+       box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+       margin: 10px;
+       padding: 0 0.5em;
+       font: 400 18px Roboto, Arial, sans-serif;
+       overflow: hidden;
+       height: 40px;
+       cursor: pointer;
+     }
+     .custom-map-control-button:hover {
+       background: #4b4949;
+     }
+     
+     #latlng {
+       width: 225px;
+     }
+.formulario{
+ float: left;
+ font-size: 2em;
+ text-align: center;
+ margin-left: 1%;
+ margin-top: 5%;
+ color: aquamarine;
+}
+body{
+ background-image: linear-gradient(rgb(41, 39, 39),black);
+}
+input{
+ background-color: rgb(63, 63, 63);
+ border-radius: 15px;
+ border: #999;
+ color: rgb(144, 197, 243);
+ height: 2em;
+}
+.button button{
+ width: 7em;
+ height: 3em;
+ background-color: rgb(102, 236, 109);
+ border-radius: 15px;
+ border: rgb(52, 175, 14);
+ font-size: 70%;
+ font-style:unset;
+ font:icon;
+}

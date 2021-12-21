@@ -1,0 +1,28 @@
+{
+  "name": "gmapapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon /index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Izaqui/GMapApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "cors": "*",
+    "dotenv": "10.0.0",
+    "nodemon": "2.0.7",
+    "pg": "8.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Izaqui/GMapApi/issues"
+  },
+  "homepage": "https://github.com/Izaqui/GMapApi#readme"
+}

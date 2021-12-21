@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <script src="./map.js"></script>
+  </head>
+  <body>
+    <div class="formulario">
+      
+          
+      <div id="form">
+        <form action="/pagina-processa-dados-do-form" method="post">
+            <div>
+                <label for="name">Nome:</label><br/>
+                <input type="text" id="nome" />
+            </div><br/>
+            <div class="button">
+                <button type="button" onclick="salvar()">Salvar</button>
+            </div>
+            <div id="localizacao"></div>
+        </form>
+    </div>
+    </div>
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=&v=weekly"
+      async>
+      async function getContent(){
+        const response = await fetch('http://localhost:3001/usuario')
+      }
+    </script>
+  </body>
+</html>
